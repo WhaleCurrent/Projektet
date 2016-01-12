@@ -7,4 +7,5 @@ public:
 	~Game();
 private:
 	float m_dt;
+	void newDT(float dt);
 };
