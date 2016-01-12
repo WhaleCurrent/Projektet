@@ -6,4 +6,5 @@ public:
 	Game();
 	~Game();
 private:
+	float m_dt;
 };
