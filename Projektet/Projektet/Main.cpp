@@ -1,4 +1,5 @@
 #include <hge.h>
+#include "Game.h"
 
 HGE *hge = 0;
 
@@ -29,6 +30,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
 	hge->System_Shutdown();
 	hge->Release();
-
+	
 	return 0;
 }
