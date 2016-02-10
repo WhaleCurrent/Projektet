@@ -1,0 +1,11 @@
+﻿Build started 2016-02-10 16:40:58.
+     1>Project "C:\Users\Marco\Desktop\Spelet med Jonez\Cube vs World\CubeWorld\Code\CubeWorld.vcxproj" on node 2 (Build target(s)).
+     1>_FXC:
+         Compiling HLSL shaders using FXC...
+     1>C:\Users\Marco\Desktop\Spelet med Jonez\Cube vs World\CubeWorld\External\FXC.targets(47,7): error MSB4064: The "CommandLineTemplate" parameter is not supported by the "FXC" task. Verify the parameter exists on the task, and it is a settable public instance property.
+     1>C:\Users\Marco\Desktop\Spelet med Jonez\Cube vs World\CubeWorld\External\FXC.targets(45,5): error MSB4063: The "FXC" task could not be initialized with its input parameters. 
+     1>Done Building Project "C:\Users\Marco\Desktop\Spelet med Jonez\Cube vs World\CubeWorld\Code\CubeWorld.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.26
