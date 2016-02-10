@@ -10,3 +10,8 @@ Game::~Game()
 
 
 }
+
+void Game::newDT(float dt)
+{
+	m_dt = dt;
+}

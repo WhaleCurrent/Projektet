@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5a019eb5-8829-4938-a79d-34e625c72da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{0f4a099c-e31d-4e78-ab1c-6453bfdbdff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InputLayouts">
+      <UniqueIdentifier>{3945d442-cc59-4be4-9f0a-ccfc839d3daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light">
+      <UniqueIdentifier>{61d09edf-9511-4419-994d-9b8510b916a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LoadModel">
+      <UniqueIdentifier>{8908a05d-b170-47eb-b693-b7548526e04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{90cab103-0992-4519-b83b-053df35b8834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sky">
+      <UniqueIdentifier>{5d0c982a-cdd0-4976-ae11-2bd0eff64c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{cc35601d-4860-4e14-a9be-bf0394f64d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureManager">
+      <UniqueIdentifier>{af7d2aa2-6bac-43fb-b6a6-9c7b0731892d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelInstance">
+      <UniqueIdentifier>{5e2dc964-5606-4e46-b6ab-54ac68adc68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LevelHandler">
+      <UniqueIdentifier>{8996b59d-3583-4f7e-bc21-568ad1f8159d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LevelHandler\Level">
+      <UniqueIdentifier>{f175d766-fd09-47b5-9fa6-fc3661ee8192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LevelHandler\Octree">
+      <UniqueIdentifier>{bf9fa12e-29f8-48a3-87cd-43d324bc14fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cube">
+      <UniqueIdentifier>{df8c5592-082c-49ee-9c43-796a69e0fa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AABB">
+      <UniqueIdentifier>{f5923bbe-5208-44c7-8e33-5db9c01ce880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cube\Sides">
+      <UniqueIdentifier>{9b597f92-2a42-4a5a-bdaf-b1a9c91229d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Powerup">
+      <UniqueIdentifier>{3a52a060-1a09-4511-ace2-31cb67c9bf66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{8bee0217-7f4a-47c5-a66f-f9d016ad896d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\LoadWavefile">
+      <UniqueIdentifier>{235dbf59-1ff6-4aba-a1de-599e4424c827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{94d7d064-ab20-4e16-8b63-73e2d21e0ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OtherModels">
+      <UniqueIdentifier>{c29db72b-887e-475b-b788-3eeac9ca8f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Text">
+      <UniqueIdentifier>{5629ea5e-6b4e-41b1-b441-ea86fd011298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{0d989444-f2bf-4537-874e-bd54cdb891d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HUD">
+      <UniqueIdentifier>{d2c5da3b-07d9-41bf-9e72-1067818e2689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\MenuObject">
+      <UniqueIdentifier>{1999f51d-fc9d-4bc6-9c33-d557f945bbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\MenuText">
+      <UniqueIdentifier>{d368b6c3-92a2-4a25-aaaf-d693d8d04faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\VolumeObject">
+      <UniqueIdentifier>{dff4668d-e214-46d3-bb20-b8514a44b38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle">
+      <UniqueIdentifier>{d3ae6130-cacf-48bb-9ed7-cafb32322c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle2">
+      <UniqueIdentifier>{68927ef9-dff2-4cb9-8fb3-4b0a0573cf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Highscore">
+      <UniqueIdentifier>{1ae5527d-94b4-4780-b0f7-7a4f082b254e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FXC Include="..\Bin\Shaders\light.fx">
+      <Filter>Shaders</Filter>
+    </FXC>
+    <FXC Include="..\Bin\Shaders\sky.fx">
+      <Filter>Shaders</Filter>
+    </FXC>
+    <FXC Include="..\Bin\Shaders\vertex.fx">
+      <Filter>Shaders</Filter>
+    </FXC>
+    <FXC Include="..\Bin\Shaders\hud.fx">
+      <Filter>Shaders</Filter>
+    </FXC>
+    <FXC Include="..\Bin\Shaders\fire.fx">
+      <Filter>Shaders</Filter>
+    </FXC>
+    <FXC Include="..\Bin\Shaders\move.fx">
+      <Filter>Shaders</Filter>
+    </FXC>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Winmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayouts.cpp">
+      <Filter>Source Files\InputLayouts</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadModel.cpp">
+      <Filter>Source Files\LoadModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Source Files\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelInstance.cpp">
+      <Filter>Source Files\ModelInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelType.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelHandler.cpp">
+      <Filter>Source Files\LevelHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\LevelHandler\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Source Files\LevelHandler\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Side.cpp">
+      <Filter>Source Files\Cube\Sides</Filter>
+    </ClCompile>
+    <ClCompile Include="Powerup.cpp">
+      <Filter>Source Files\Powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherModels.cpp">
+      <Filter>Source Files\OtherModels</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavefile.cpp">
+      <Filter>Source Files\Sound\LoadWavefile</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuObjects.cpp">
+      <Filter>Source Files\Menu\MenuObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadCube.cpp">
+      <Filter>Source Files\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuText.cpp">
+      <Filter>Source Files\Menu\MenuText</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeObject.cpp">
+      <Filter>Source Files\Menu\VolumeObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle2.cpp">
+      <Filter>Source Files\Particle2</Filter>
+    </ClCompile>
+    <ClCompile Include="Highscore.cpp">
+      <Filter>Source Files\Menu\Highscore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Source Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayouts.h">
+      <Filter>Source Files\InputLayouts</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadModel.h">
+      <Filter>Source Files\LoadModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Source Files\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Source Files\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInstance.h">
+      <Filter>Source Files\ModelInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelType.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHandler.h">
+      <Filter>Source Files\LevelHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Source Files\LevelHandler\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Source Files\LevelHandler\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Source Files\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Source Files\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Side.h">
+      <Filter>Source Files\Cube\Sides</Filter>
+    </ClInclude>
+    <ClInclude Include="Powerup.h">
+      <Filter>Source Files\Powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherModels.h">
+      <Filter>Source Files\OtherModels</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavefile.h">
+      <Filter>Source Files\Sound\LoadWavefile</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Source Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuObjects.h">
+      <Filter>Source Files\Menu\MenuObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadCube.h">
+      <Filter>Source Files\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuText.h">
+      <Filter>Source Files\Menu\MenuText</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeObject.h">
+      <Filter>Source Files\Menu\VolumeObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle2.h">
+      <Filter>Source Files\Particle2</Filter>
+    </ClInclude>
+    <ClInclude Include="Highscore.h">
+      <Filter>Source Files\Menu\Highscore</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
