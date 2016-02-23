@@ -1,2 +1,12 @@
 Projektet/Projektet.sdf
 Projektet/.vs/Projektet/v14/.suo
+*.pdb
+*.iobj
+*.ilk
+*.ipdb
+*.idb
+*.tlog
+*.log
+*.obj
+*.ipch
+*.sdf

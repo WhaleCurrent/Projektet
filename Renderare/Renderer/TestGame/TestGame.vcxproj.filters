@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{11f724a1-d794-4f0b-af3d-3eeedf0fb0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{a4535144-f430-4ebb-8f51-c1bc13c8da7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputHandler">
+      <UniqueIdentifier>{c352e1af-fa22-45c6-b16e-d7d13858966f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTimer">
+      <UniqueIdentifier>{82c43840-b05e-41e1-8ca0-c7ee1843e277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{c0f7cc22-597e-4eee-a896-83587335099f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\GameTimer.h">
+      <Filter>GameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\InputHandler.h">
+      <Filter>InputHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LeakTracker.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\LibraryLinker.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SafeDelete.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\GameTimer.cpp">
+      <Filter>GameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\InputHandler.cpp">
+      <Filter>InputHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
